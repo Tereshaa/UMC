@@ -1,0 +1,188 @@
+body {
+  background-color: #c2ded1;
+}
+h1,
+h2,
+h3 {
+  color: #354259;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.9rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #20656f;
+  line-height: 1.9;
+  font-size: 1.9rem;
+  text-align: center;
+  font-family: 'Arima Madurai', cursive;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dashed;
+  border-color: aliceblue;
+  border-width: 2px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4d5b44;
+}
+
+/* title */
+
+.title {
+  background-color: #c2ded1;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.title-text, .title-text1 {
+  text-align: left;
+  padding-right: 7%;
+}
+.title-text1{  font-family: 'Dancing Script', cursive;}
+
+.title-img {
+  text-align: center;
+  width: 400px;
+}
+
+
+/* varieties */
+#variety {
+  background-color: #cdc2ae;
+  padding: 7% 15%;
+  size: 100%;
+  line-height: 1.5;
+}
+
+.variety-img {
+  width: 150px;
+  text-align: center;
+  padding-top: 70%;
+}
+.variety-text {
+  text-align: center;
+  line-height: 1.5;
+  padding-bottom: 7%;
+}
+
+.icon {
+  width: 15%;
+}
+
+
+.icon-text {
+  text-align: left;
+}
+
+/* shopnow */
+
+.shop-now{text-align: center;
+padding: 7% 15%;
+}
+ #shop{padding: 7% 15%;}
+.card{background-color:#E8F9FD;
+padding-bottom: 2%;}
+.shop{text-align: center;
+line-height: 1.7;
+font-size: 2.7rem;
+padding-bottom: 4%;}
+.pc {
+  padding: 3% 2%;
+}
+.shop-img{width: 100%;
+
+padding-bottom: 6%;}
+
+/* testimonials */
+#testimonials {
+  background-color:#cdc2ae;
+  padding: 4%;
+  text-align: center;
+  color: #354259;
+}
+
+.test-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 4% 15%;
+}
+
+
+/* store */
+#store{padding: 7% 15%;}
+.store{text-align: center;
+line-height: 1.5;}
+.store1{text-align: center;}
+.store-button{text-align: center;
+margin-left: 40%;}
+
+
+
+
+/* footer */
+#footer{background-color: #cdc2ae;
+padding: 7% 15%;
+text-align: center;
+}
+.icon{padding: 0;
+margin: 0;}
+.footer{font-size: 70%;
+padding-top: 2%;}
+
+@media (min-width:991.3px) and (max-width:1124px)
+{
+  .title-img{width: 58%;
+    position: absolute;
+    top: 21%;
+    right:10%;}
+
+  .title-text,.title-text1{text-align: center;}
+
+  .map{width: 98%;}
+  .address{font-size: 1rem;} 
+}
+
+@media (min-width:966px) and (max-width:991.2px)
+{
+  .title-img{width:75%;
+    padding-top: 2%;
+  padding-left: 10%;}
+  .title-text ,.title-text1{text-align: center;}
+  .map{padding-left: 7%;}
+  .address{font-size: 1rem;} 
+}
+
+@media (min-width:600px) and (max-width:965.4px)
+{
+  .title-text, .title-text1{text-align: center;}
+  .title-img{width:85%;
+  padding-left:5%;}
+  .map{width:100%}
+  .address{font-size: 1rem;} 
+  .store-button{text-align: center;
+    margin-left: 30%;}
+}
