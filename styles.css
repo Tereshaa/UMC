@@ -176,7 +176,7 @@ padding-top: 2%;}
   .address{font-size: 1rem;} 
 }
 
-@media (min-width:600px) and (max-width:965.4px)
+@media (max-width:965.4px)
 {
   .title-text, .title-text1{text-align: center;}
   .title-img{width:85%;
