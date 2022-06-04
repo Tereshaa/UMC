@@ -1,6 +1,7 @@
 body {
   background-color: #c2ded1;
 }
+
 h1,
 h2,
 h3 {
@@ -30,15 +31,10 @@ p {
   line-height: 1.9;
   font-size: 1.9rem;
   text-align: center;
-  font-family: 'Arima Madurai', cursive;
+  font-family: "Arima Madurai", cursive;
 }
 
-hr {
-  border-style: none;
-  border-top-style: dashed;
-  border-color: aliceblue;
-  border-width: 2px;
-}
+/* navbar */
 
 .navbar-brand {
   font-family: "Ubuntu", sans-serif;
@@ -55,17 +51,19 @@ hr {
   padding: 7% 15%;
 }
 
-.title-text, .title-text1 {
+.title-text,
+.title-text1 {
   text-align: left;
   padding-right: 7%;
 }
-.title-text1{  font-family: 'Dancing Script', cursive;}
+.title-text1 {
+  font-family: "Dancing Script", cursive;
+}
 
 .title-img {
   text-align: center;
   width: 400px;
 }
-
 
 /* varieties */
 #variety {
@@ -90,33 +88,54 @@ hr {
   width: 15%;
 }
 
-
 .icon-text {
   text-align: left;
 }
 
+.card1 {
+  background-color: rgb(234, 231, 222);
+  padding: 2%;
+  text-align: center;
+  border-radius: 4%;
+}
+
 /* shopnow */
 
-.shop-now{text-align: center;
-padding: 7% 15%;
+#shop {
+  padding: 7% 15%;
 }
- #shop{padding: 7% 15%;}
-.card{background-color:#E8F9FD;
-padding-bottom: 2%;}
-.shop{text-align: center;
-line-height: 1.7;
-font-size: 2.7rem;
-padding-bottom: 4%;}
+
+.shop-now {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.card {
+  background-color: #e8f9fd;
+  padding-bottom: 2%;
+}
+
+.shop {
+  text-align: center;
+  line-height: 1.7;
+  font-size: 2.7rem;
+  padding-bottom: 4%;
+}
+
 .pc {
   padding: 3% 2%;
 }
-.shop-img{width: 100%;
 
-padding-bottom: 6%;}
+.shop-img {
+  width: 100%;
+
+  padding-bottom: 6%;
+}
 
 /* testimonials */
+
 #testimonials {
-  background-color:#cdc2ae;
+  background-color: #cdc2ae;
   padding: 4%;
   text-align: center;
   color: #354259;
@@ -127,62 +146,196 @@ padding-bottom: 6%;}
   border-radius: 100%;
   margin: 20px;
 }
+
 .carousel-item {
   padding: 4% 15%;
 }
 
-
 /* store */
-#store{padding: 7% 15%;}
-.store{text-align: center;
-line-height: 1.5;}
-.store1{text-align: center;}
-.store-button{text-align: center;
-margin-left: 40%;}
 
+#store {
+  padding: 7%;
+}
 
+.store {
+  text-align: center;
+  line-height: 1.5;
+}
 
+.store1 {
+  text-align: center;
+}
+
+.store-button {
+  text-align: center;
+  margin-left: 44%;
+}
+
+.address {
+  font-size: 1.3rem;
+}
 
 /* footer */
-#footer{background-color: #cdc2ae;
-padding: 7% 15%;
-text-align: center;
-}
-.icon{padding: 0;
-margin: 0;}
-.footer{font-size: 70%;
-padding-top: 2%;}
 
-@media (min-width:991.3px) and (max-width:1124px)
-{
-  .title-img{width: 58%;
+#footer {
+  background-color: #cdc2ae;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.icon {
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  font-size: 70%;
+  padding-top: 2%;
+}
+
+/* media */
+
+@media (min-width: 991.3px) and (max-width: 1124px) {
+  .title-img {
+    width: 58%;
     position: absolute;
     top: 21%;
-    right:10%;}
+    right: 10%;
+  }
 
-  .title-text,.title-text1{text-align: center;}
+  .title-text,
+  .title-text1 {
+    text-align: center;
+  }
+  .title-text {
+    font-size: 3.5rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
 
-  .map{width: 98%;}
-  .address{font-size: 1rem;} 
+  .map {
+    width: 100%;
+  }
+  .address {
+    font-size: 1rem;
+    text-align: left;
+  }
 }
 
-@media (min-width:966px) and (max-width:991.2px)
-{
-  .title-img{width:75%;
+@media (min-width: 653px) and (max-width: 900.2px) {
+  .title-img {
+    width: 75%;
     padding-top: 2%;
-  padding-left: 10%;}
-  .title-text ,.title-text1{text-align: center;}
-  .map{padding-left: 7%;}
-  .address{font-size: 1rem;} 
+    padding-left: 10%;
+  }
+  .title-text,
+  .title-text1 {
+    text-align: center;
+  }
+  .title-text {
+    font-size: 3rem;
+  }
+  .title-text1{font-size: 2.2rem;}
+
+  h2 {
+    font-size: 2.8rem;
+  }
+
+  .shop{font-size: 2.2rem;}
+  .p{font-size: 1.7rem;}
+  
+  .address {
+    font-size: 1rem;
+  }
+
+  .umc{width: 11%;}
+
+  .navbar-brand {
+    font-size: 2.3rem;
+  }
+  
 }
 
-@media (max-width:965.4px)
-{
-  .title-text, .title-text1{text-align: center;}
-  .title-img{width:85%;
-  padding-left:5%;}
-  .map{width:100%}
-  .address{font-size: 1rem;} 
-  .store-button{text-align: center;
-    margin-left: 30%;}
+@media (min-width:475px) and (max-width: 652px) {
+  .title-text,
+  .title-text1 {
+    text-align: center;
+  }
+  .title-img {
+    width: 89%;
+    padding-left: 2;
+  }
+  .title-text {
+    font-size: 2.6rem;
+  }
+  .title-text1{font-size: 1.9rem;}
+  h2 {
+    font-size: 2.4rem;
+  }
+  .shop {
+    font-size: 2rem;
+  }
+
+  .map {
+    width: 100%;
+  }
+  .address {
+    font-size: 1rem;
+  }
+  .store-button {
+    text-align: center;
+    margin-left: 29%;
+  }
+  .umc {
+    width: 10%;
+  }
+  .navbar-brand {
+    font-size: 2.1rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 474px) {
+  .title-text,
+  .title-text1 {
+    text-align: center;
+  }
+  .title-img {
+    width: 85%;
+    padding-left: 5%;
+  }
+  .title-text1 {
+    font-size: 1.6rem;
+  }
+  .title-text {
+    font-size: 2.3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .shop {
+    font-size: 1.8rem;
+  }
+  .map {
+    width: 100%;
+  }
+  .address {
+    font-size: 1rem;
+  }
+  .store-button {
+    text-align: center;
+    margin-left: 14%;
+  }
+  .umc {
+    width: 9%;
+  }
+  .navbar-brand {
+    font-size: 1.3rem;
+  }
+  p {
+    font-size: 1.3rem;
+  }
 }
